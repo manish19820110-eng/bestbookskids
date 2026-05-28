@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover the best books for children by age, subject, genre and reading level. Trusted by 50,000+ Indian families." />
+  <title>BestBooksKids – Find the Perfect Book for Every Child</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">📚</span>
+        <span>BestBooks<strong>Kids</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="books.html">Browse Books</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About</a>
+        <a href="books.html" class="nav-cta">Find a Book →</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="container hero-content">
+      <div class="hero-badge animate-in" style="--delay:0s">🇮🇳 Trusted by 50,000+ Indian Families</div>
+      <h1 class="animate-in" style="--delay:0.1s">
+        Discover the Perfect Book<br />
+        <em>for Every Child</em>
+      </h1>
+      <p class="hero-sub animate-in" style="--delay:0.2s">
+        Curated by educators, loved by children. Find books by age, subject, reading level, and interest — all in one place.
+      </p>
+      <form class="search-bar animate-in" style="--delay:0.3s" action="books.html" method="GET">
+        <input type="text" name="q" placeholder="Search by title, author, or topic…" aria-label="Search books" />
+        <select name="age" aria-label="Select age group">
+          <option value="">All Ages</option>
+          <option value="3-5">Ages 3–5</option>
+          <option value="6-8">Ages 6–8</option>
+          <option value="9-12">Ages 9–12</option>
+          <option value="13-16">Ages 13–16</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+      <div class="hero-stats animate-in" style="--delay:0.4s">
+        <div class="stat"><strong>2,400+</strong><span>Books</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>120+</strong><span>Topics</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>4.8 ★</strong><span>Avg Rating</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>50k+</strong><span>Families</span></div>
+      </div>
+    </div>
+    <div class="hero-books-float" aria-hidden="true">
+      <span class="float-book fb1">📖</span>
+      <span class="float-book fb2">🔭</span>
+      <span class="float-book fb3">🧙</span>
+      <span class="float-book fb4">🦁</span>
+      <span class="float-book fb5">🚀</span>
+    </div>
+  </section>
+
+  <!-- ░░ AGE CATEGORIES ░░ -->
+  <section class="section age-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">Browse by Age</span>
+          <h2>Books for Every Stage of Growing Up</h2>
+        </div>
+        <a href="books.html" class="see-all">See all books →</a>
+      </div>
+      <div class="age-cards">
+        <a href="books.html?age=3-5" class="age-card age-card--yellow">
+          <div class="age-emoji">🐣</div>
+          <div class="age-range">Ages 3–5</div>
+          <div class="age-label">Preschool</div>
+          <div class="age-count">320 books</div>
+          <div class="age-tags"><span>Picture Books</span><span>Stories</span><span>Rhymes</span></div>
+        </a>
+        <a href="books.html?age=6-8" class="age-card age-card--green">
+          <div class="age-emoji">🎒</div>
+          <div class="age-range">Ages 6–8</div>
+          <div class="age-label">Primary School</div>
+          <div class="age-count">480 books</div>
+          <div class="age-tags"><span>Early Readers</span><span>Comics</span><span>Science</span></div>
+        </a>
+        <a href="books.html?age=9-12" class="age-card age-card--blue">
+          <div class="age-emoji">🔭</div>
+          <div class="age-range">Ages 9–12</div>
+          <div class="age-label">Middle School</div>
+          <div class="age-count">590 books</div>
+          <div class="age-tags"><span>Adventure</span><span>Fantasy</span><span>History</span></div>
+        </a>
+        <a href="books.html?age=13-16" class="age-card age-card--purple">
+          <div class="age-emoji">📖</div>
+          <div class="age-range">Ages 13–16</div>
+          <div class="age-label">Teen Readers</div>
+          <div class="age-count">410 books</div>
+          <div class="age-tags"><span>Biography</span><span>Science</span><span>Classics</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FEATURED BOOK ░░ -->
+  <section class="section featured-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">Editor's Pick</span>
+          <h2>Book of the Week</h2>
+        </div>
+      </div>
+      <div class="featured-card">
+        <div class="featured-cover">🧙</div>
+        <div class="featured-body">
+          <div class="featured-tags-row">
+            <span class="tag tag--amber">⭐ Best Seller</span>
+            <span class="tag tag--purple">Fantasy</span>
+            <span class="tag tag--blue">Age 10+</span>
+          </div>
+          <h3 class="featured-title">Harry Potter and the Philosopher's Stone</h3>
+          <p class="featured-author">by J.K. Rowling · Published by Bloomsbury</p>
+          <p class="featured-desc">
+            A timeless classic that has introduced millions of children to the joy of reading. Follow Harry as he discovers a magical world of wonder, friendship, and courage. Builds vocabulary, imagination, and a lifelong love of books.
+          </p>
+          <div class="featured-benefits">
+            <div class="benefit"><span class="benefit-icon">📝</span> Builds vocabulary and writing skills</div>
+            <div class="benefit"><span class="benefit-icon">🧠</span> Encourages critical thinking</div>
+            <div class="benefit"><span class="benefit-icon">💫</span> Sparks imagination and creativity</div>
+            <div class="benefit"><span class="benefit-icon">🤝</span> Teaches values of friendship & courage</div>
+          </div>
+          <div class="featured-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-val">4.9</span>
+            <span class="rating-count">(12,400 reviews)</span>
+          </div>
+          <div class="featured-actions">
+            <a href="book-detail.html" class="btn btn-primary">View Full Details</a>
+            <a href="https://www.amazon.in/s?k=Harry+Potter+Philosopher+Stone" target="_blank" rel="noopener" class="btn btn-outline">Buy on Amazon ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TOP BOOKS GRID ░░ -->
+  <section class="section books-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">Handpicked for You</span>
+          <h2>Top Picks Right Now</h2>
+        </div>
+        <a href="books.html" class="see-all">View all →</a>
+      </div>
+      <div class="age-filter-tabs" role="tablist">
+        <button class="tab active" onclick="filterBooks(this,'3-5')" role="tab">🐣 Ages 3–5</button>
+        <button class="tab" onclick="filterBooks(this,'6-8')" role="tab">🎒 Ages 6–8</button>
+        <button class="tab" onclick="filterBooks(this,'9-12')" role="tab">🔭 Ages 9–12</button>
+        <button class="tab" onclick="filterBooks(this,'13-16')" role="tab">📖 Ages 13–16</button>
+      </div>
+      <div class="books-grid" id="booksGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SUBJECT CATEGORIES ░░ -->
+  <section class="section categories-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">Explore Topics</span>
+          <h2>Browse by Subject</h2>
+        </div>
+        <a href="categories.html" class="see-all">All categories →</a>
+      </div>
+      <div class="cat-grid">
+        <a href="books.html?subject=science" class="cat-card cat--blue">
+          <div class="cat-icon">🔬</div>
+          <div class="cat-name">Science</div>
+          <div class="cat-count">148 books</div>
+        </a>
+        <a href="books.html?subject=maths" class="cat-card cat--amber">
+          <div class="cat-icon">📐</div>
+          <div class="cat-name">Mathematics</div>
+          <div class="cat-count">96 books</div>
+        </a>
+        <a href="books.html?subject=stories" class="cat-card cat--coral">
+          <div class="cat-icon">🦁</div>
+          <div class="cat-name">Moral Stories</div>
+          <div class="cat-count">212 books</div>
+        </a>
+        <a href="books.html?subject=history" class="cat-card cat--purple">
+          <div class="cat-icon">🏛️</div>
+          <div class="cat-name">History & Mythology</div>
+          <div class="cat-count">87 books</div>
+        </a>
+        <a href="books.html?subject=english" class="cat-card cat--green">
+          <div class="cat-icon">✍️</div>
+          <div class="cat-name">English & Writing</div>
+          <div class="cat-count">134 books</div>
+        </a>
+        <a href="books.html?subject=coding" class="cat-card cat--gray">
+          <div class="cat-icon">💻</div>
+          <div class="cat-name">Coding for Kids</div>
+          <div class="cat-count">52 books</div>
+        </a>
+        <a href="books.html?subject=gk" class="cat-card cat--teal">
+          <div class="cat-icon">🌍</div>
+          <div class="cat-name">General Knowledge</div>
+          <div class="cat-count">74 books</div>
+        </a>
+        <a href="books.html?subject=biography" class="cat-card cat--pink">
+          <div class="cat-icon">🦸</div>
+          <div class="cat-name">Biography</div>
+          <div class="cat-count">61 books</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ READING TIPS ░░ -->
+  <section class="section tips-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">For Parents & Teachers</span>
+          <h2>Reading Tips That Work</h2>
+        </div>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-num">01</div>
+          <div class="tip-icon">🕐</div>
+          <h4>15 Minutes a Day</h4>
+          <p>A short daily reading session dramatically improves comprehension and vocabulary. Consistency beats duration.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">02</div>
+          <div class="tip-icon">🎯</div>
+          <h4>Match Level to Interest</h4>
+          <p>Let children choose topics they love, even if the book is slightly above their level — motivation beats difficulty.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">03</div>
+          <div class="tip-icon">🌟</div>
+          <h4>Read Aloud Together</h4>
+          <p>Reading aloud together builds pronunciation, listening skills, and creates shared family memories.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">04</div>
+          <div class="tip-icon">📚</div>
+          <h4>Build a Home Library</h4>
+          <p>Children with books at home read 2× more than those without. Even 20 books makes a real difference.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CTA BANNER ░░ -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Not sure which book to pick?</h2>
+        <p>Use our smart filter to find the perfect book by age, subject, genre, and price — in seconds.</p>
+      </div>
+      <a href="books.html" class="btn btn-white">Find the Right Book →</a>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">📚 <strong>BestBooksKids</strong></div>
+        <p>Helping parents and teachers discover the best books for every child since 2024.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook">🌐</a>
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Browse</h5>
+        <a href="books.html?age=3-5">Ages 3–5</a>
+        <a href="books.html?age=6-8">Ages 6–8</a>
+        <a href="books.html?age=9-12">Ages 9–12</a>
+        <a href="books.html?age=13-16">Ages 13–16</a>
+      </div>
+      <div class="footer-col">
+        <h5>Subjects</h5>
+        <a href="books.html?subject=science">Science</a>
+        <a href="books.html?subject=maths">Mathematics</a>
+        <a href="books.html?subject=stories">Moral Stories</a>
+        <a href="books.html?subject=coding">Coding for Kids</a>
+      </div>
+      <div class="footer-col">
+        <h5>Info</h5>
+        <a href="about.html">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Affiliate Disclosure</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 BestBooksKids. Made with ❤️ for children who love to read.</p>
+      <p class="affiliate-note">Some links are affiliate links. We may earn a small commission at no extra cost to you.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Potter and the Philosopher's Stone – BestBooksKids</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">📚</span><span>BestBooks<strong>Kids</strong></span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="books.html">Browse Books</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About</a>
+        <a href="books.html" class="nav-cta">Find a Book →</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="container breadcrumb">
+    <a href="index.html">Home</a> › <a href="books.html">Books</a> › Harry Potter and the Philosopher's Stone
+  </div>
+
+  <!-- BOOK DETAIL -->
+  <section class="book-detail-section container">
+    <div class="book-detail-grid">
+
+      <!-- LEFT: Cover + Buy -->
+      <div class="book-detail-left">
+        <div class="book-detail-cover">🧙</div>
+        <div class="book-detail-meta-pills">
+          <span class="tag tag--amber">★ Best Seller</span>
+          <span class="tag tag--purple">Fantasy</span>
+          <span class="tag tag--blue">Age 10+</span>
+          <span class="tag tag--green">Advanced</span>
+        </div>
+        <div class="book-price-box">
+          <div class="price-main">₹499</div>
+          <div class="price-note">Paperback · Amazon India</div>
+          <a href="https://www.amazon.in/s?k=Harry+Potter+Philosophers+Stone" target="_blank" rel="noopener" class="btn btn-primary btn-block">Buy on Amazon ↗</a>
+          <a href="https://www.flipkart.com/search?q=Harry+Potter+Philosophers+Stone" target="_blank" rel="noopener" class="btn btn-outline btn-block" style="margin-top:8px">Buy on Flipkart ↗</a>
+        </div>
+        <div class="detail-sidebar-info">
+          <div class="si-row"><span>Author</span><strong>J.K. Rowling</strong></div>
+          <div class="si-row"><span>Publisher</span><strong>Bloomsbury</strong></div>
+          <div class="si-row"><span>Pages</span><strong>223</strong></div>
+          <div class="si-row"><span>Language</span><strong>English</strong></div>
+          <div class="si-row"><span>Age</span><strong>10+ years</strong></div>
+          <div class="si-row"><span>Level</span><strong>Advanced</strong></div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Details -->
+      <div class="book-detail-right">
+        <h1 class="book-detail-title">Harry Potter and the Philosopher's Stone</h1>
+        <p class="book-detail-author">by J.K. Rowling</p>
+
+        <div class="book-rating-row">
+          <span class="stars-lg">★★★★★</span>
+          <span class="rating-big">4.9</span>
+          <span class="rating-ct">12,400 reviews</span>
+        </div>
+
+        <div class="book-tabs">
+          <button class="btab active" onclick="showTab(this,'summary')">Summary</button>
+          <button class="btab" onclick="showTab(this,'learning')">Learning Outcomes</button>
+          <button class="btab" onclick="showTab(this,'curriculum')">Curriculum Fit</button>
+          <button class="btab" onclick="showTab(this,'reviews')">Reviews</button>
+        </div>
+
+        <div class="tab-content" id="tab-summary">
+          <p>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doorstep at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his horrified aunt and uncle.</p>
+          <p style="margin-top:1rem">Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some important news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry.</p>
+          <p style="margin-top:1rem">An incredible adventure is about to begin — one that will change Harry's life, and the lives of millions of readers, forever.</p>
+        </div>
+
+        <div class="tab-content hidden" id="tab-learning">
+          <ul class="learning-list">
+            <li>✅ Expands English vocabulary significantly</li>
+            <li>✅ Builds reading stamina and focus</li>
+            <li>✅ Encourages creative imagination and world-building</li>
+            <li>✅ Teaches values: friendship, loyalty, courage, honesty</li>
+            <li>✅ Develops empathy through rich character storytelling</li>
+            <li>✅ Introduces children to complex narrative structure</li>
+            <li>✅ Sparks interest in further reading (7-book series)</li>
+            <li>✅ Improves comprehension and inference skills</li>
+          </ul>
+        </div>
+
+        <div class="tab-content hidden" id="tab-curriculum">
+          <div class="curriculum-table">
+            <div class="ct-row"><span>CBSE Grade</span><strong>Grade 5 – 7 (supplementary)</strong></div>
+            <div class="ct-row"><span>ICSE Grade</span><strong>Grade 5 – 8 (recommended)</strong></div>
+            <div class="ct-row"><span>Subject</span><strong>English Literature / Library</strong></div>
+            <div class="ct-row"><span>Skills Covered</span><strong>Reading, Comprehension, Vocabulary</strong></div>
+            <div class="ct-row"><span>Competitive Reading</span><strong>Olympiad, Reading Challenges</strong></div>
+          </div>
+          <p style="margin-top:1rem;font-size:14px;color:#888">Note: This book is widely used in school library programs and recommended by teachers across India for improving English fluency.</p>
+        </div>
+
+        <div class="tab-content hidden" id="tab-reviews">
+          <div class="review-card">
+            <div class="review-top"><span class="stars">★★★★★</span><span class="reviewer">Priya M., Parent (Mumbai)</span></div>
+            <p>"My 11-year-old was not interested in books at all. Harry Potter changed everything. She finished all 7 books in 3 months!"</p>
+          </div>
+          <div class="review-card">
+            <div class="review-top"><span class="stars">★★★★★</span><span class="reviewer">Mrs. Sharma, Teacher (Delhi)</span></div>
+            <p>"I recommend this to every student in class 6. The vocabulary improvement is remarkable and children genuinely love it."</p>
+          </div>
+          <div class="review-card">
+            <div class="review-top"><span class="stars">★★★★☆</span><span class="reviewer">Rahul K., Student (Bangalore)</span></div>
+            <p>"Best book I have ever read. I used to hate reading but now I have read it four times. The story never gets boring."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELATED BOOKS -->
+  <section class="section container">
+    <div class="section-header">
+      <div><span class="section-label">You Might Also Like</span><h2>Related Books</h2></div>
+    </div>
+    <div class="books-grid" id="relatedGrid"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">📚 <strong>BestBooksKids</strong></div>
+        <p>Helping parents and teachers discover the best books for every child since 2024.</p>
+      </div>
+      <div class="footer-col"><h5>Browse</h5><a href="books.html?age=3-5">Ages 3–5</a><a href="books.html?age=6-8">Ages 6–8</a><a href="books.html?age=9-12">Ages 9–12</a><a href="books.html?age=13-16">Ages 13–16</a></div>
+      <div class="footer-col"><h5>Info</h5><a href="about.html">About Us</a><a href="#">Contact</a><a href="#">Privacy Policy</a></div>
+    </div>
+    <div class="footer-bottom"><p>© 2024 BestBooksKids. Made with ❤️ for children who love to read.</p></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    function showTab(btn, id) {
+      document.querySelectorAll('.btab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.add('hidden'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + id).classList.remove('hidden');
+    }
+    // Related books
+    const related = [
+      { emoji:'🌿', title:'The Jungle Book', author:'Rudyard Kipling', age:'8+', stars:'★★★★★', badge:'bestseller' },
+      { emoji:'⚡', title:'Percy Jackson', author:'Rick Riordan', age:'10+', stars:'★★★★★', badge:'bestseller' },
+      { emoji:'🧩', title:'Narnia Chronicles', author:'C.S. Lewis', age:'9+', stars:'★★★★★', badge:'award' },
+      { emoji:'🦸', title:'Wings of Fire', author:'A.P.J. Abdul Kalam', age:'14+', stars:'★★★★★', badge:'award' },
+    ];
+    const rg = document.getElementById('relatedGrid');
+    rg.innerHTML = related.map(b => bookCardHTML(b)).join('');
+    function bookCardHTML(b) {
+      const bLabel = b.badge === 'bestseller' ? 'Best Seller' : b.badge === 'new' ? 'New' : 'Award';
+      const bClass = 'badge-' + b.badge;
+      return `<a href="book-detail.html" class="book-card">
+        <div class="book-cover">${b.emoji}<span class="book-badge ${bClass}">${bLabel}</span></div>
+        <div class="book-info">
+          <div class="book-title">${b.title}</div>
+          <div class="book-author">${b.author}</div>
+          <div class="book-meta"><span class="stars">${b.stars}</span><span class="book-age">${b.age}</span></div>
+          <div class="book-buy-hint">View Details →</div>
+        </div>
+      </a>`;
+    }
+  </script>
+</body>
+</html>

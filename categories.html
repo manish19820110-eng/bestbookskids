@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Categories – BestBooksKids</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">📚</span><span>BestBooks<strong>Kids</strong></span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="books.html">Browse Books</a>
+        <a href="categories.html" class="active">Categories</a>
+        <a href="about.html">About</a>
+        <a href="books.html" class="nav-cta">Find a Book →</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>All Book Categories</h1>
+      <p>Explore every subject, genre, and reading type — from science adventures to moral classics.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="section-header"><div><span class="section-label">By Subject</span><h2>Academic Subjects</h2></div></div>
+    <div class="cat-grid cat-grid--large">
+      <a href="books.html?subject=science" class="cat-card-large cat--blue">
+        <div class="cat-icon-lg">🔬</div>
+        <div class="cat-info"><h3>Science</h3><p>Physics, Biology, Chemistry, Space, Nature</p><span>148 books</span></div>
+      </a>
+      <a href="books.html?subject=maths" class="cat-card-large cat--amber">
+        <div class="cat-icon-lg">📐</div>
+        <div class="cat-info"><h3>Mathematics</h3><p>Numbers, Puzzles, Logic, Olympiad Prep</p><span>96 books</span></div>
+      </a>
+      <a href="books.html?subject=english" class="cat-card-large cat--green">
+        <div class="cat-icon-lg">✍️</div>
+        <div class="cat-info"><h3>English & Writing</h3><p>Grammar, Vocabulary, Creative Writing, Comprehension</p><span>134 books</span></div>
+      </a>
+      <a href="books.html?subject=history" class="cat-card-large cat--purple">
+        <div class="cat-icon-lg">🏛️</div>
+        <div class="cat-info"><h3>History & Social Studies</h3><p>Indian History, World Events, Geography, Civics</p><span>87 books</span></div>
+      </a>
+      <a href="books.html?subject=coding" class="cat-card-large cat--gray">
+        <div class="cat-icon-lg">💻</div>
+        <div class="cat-info"><h3>Coding for Kids</h3><p>Scratch, Python, Web, Game Development</p><span>52 books</span></div>
+      </a>
+      <a href="books.html?subject=gk" class="cat-card-large cat--teal">
+        <div class="cat-icon-lg">🌍</div>
+        <div class="cat-info"><h3>General Knowledge</h3><p>Trivia, Current Affairs, World Facts, Quiz</p><span>74 books</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="section-header"><div><span class="section-label">By Genre</span><h2>Story & Fiction Types</h2></div></div>
+    <div class="cat-grid cat-grid--large">
+      <a href="books.html?genre=moral" class="cat-card-large cat--coral">
+        <div class="cat-icon-lg">🦁</div>
+        <div class="cat-info"><h3>Moral Stories</h3><p>Panchatantra, Aesop's Fables, Jataka Tales</p><span>212 books</span></div>
+      </a>
+      <a href="books.html?genre=fantasy" class="cat-card-large cat--purple">
+        <div class="cat-icon-lg">🧙</div>
+        <div class="cat-info"><h3>Fantasy & Magic</h3><p>Magical worlds, wizards, mythical creatures</p><span>98 books</span></div>
+      </a>
+      <a href="books.html?genre=adventure" class="cat-card-large cat--blue">
+        <div class="cat-icon-lg">🗺️</div>
+        <div class="cat-info"><h3>Adventure</h3><p>Treasure hunts, exploration, mystery solving</p><span>145 books</span></div>
+      </a>
+      <a href="books.html?genre=biography" class="cat-card-large cat--amber">
+        <div class="cat-icon-lg">🦸</div>
+        <div class="cat-info"><h3>Biography & Inspiring Lives</h3><p>Scientists, leaders, freedom fighters, sportspeople</p><span>61 books</span></div>
+      </a>
+      <a href="books.html?genre=mythology" class="cat-card-large cat--coral">
+        <div class="cat-icon-lg">⚡</div>
+        <div class="cat-info"><h3>Indian Mythology</h3><p>Ramayana, Mahabharata, Puranas, Amar Chitra Katha</p><span>79 books</span></div>
+      </a>
+      <a href="books.html?genre=comics" class="cat-card-large cat--green">
+        <div class="cat-icon-lg">🎨</div>
+        <div class="cat-info"><h3>Comics & Graphic Novels</h3><p>Fun formats that make reluctant readers love reading</p><span>53 books</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text"><h2>Can't find the right category?</h2><p>Use our smart filter to search by any combination of age, subject, price, and level.</p></div>
+      <a href="books.html" class="btn btn-white">Open Book Filter →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><div class="logo">📚 <strong>BestBooksKids</strong></div><p>Helping parents and teachers discover the best books for every child since 2024.</p></div>
+      <div class="footer-col"><h5>Browse</h5><a href="books.html?age=3-5">Ages 3–5</a><a href="books.html?age=6-8">Ages 6–8</a><a href="books.html?age=9-12">Ages 9–12</a><a href="books.html?age=13-16">Ages 13–16</a></div>
+      <div class="footer-col"><h5>Info</h5><a href="about.html">About Us</a><a href="#">Contact</a><a href="#">Privacy Policy</a></div>
+    </div>
+    <div class="footer-bottom"><p>© 2024 BestBooksKids. Made with ❤️ for children who love to read.</p></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
